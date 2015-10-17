@@ -1,0 +1,14 @@
+# Jekyll configuration file
+name: /dev/random
+
+description: ramblings of a water-type pokemon.
+
+author: sudoprime
+
+author_email: bryan &at& unhwildhats ^dot^ c-o-m
+
+permalink: pretty
+
+paginate: 3
+
+exclude: [README.md]
