@@ -12,3 +12,5 @@ permalink: pretty
 paginate: 3
 
 exclude: [README.md]
+
+markdown: redcarpet
