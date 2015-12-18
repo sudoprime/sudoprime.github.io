@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 
 <html>
-{% include header.html %}
 
-  <body>
-{{ content }}
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="/bootstrap.min.css">
+  <script type="text/javascript"
+    src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">Aboot</a></li>
+      </ul>
+    </div>
+  </div>
+
+  {{ content }}
+</body>
+
 </html>
