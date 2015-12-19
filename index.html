@@ -3,8 +3,18 @@ layout: default
 title: Blogging Like a Hacker
 ---
 
-<ol>
-{% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ol>
+<div class="intro">
+  <h3>Hello, world!</h3>
+  <p>
+    lorem ipsum
+  </p>
+</div>
+
+<h3>Recent Posts</h3>
+<div class="post-list">
+  <ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>

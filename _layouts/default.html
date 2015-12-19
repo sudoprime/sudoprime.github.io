@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- i see you looking. hit me up if you like what you see! -->
 
 <html>
 
@@ -16,13 +17,21 @@
   <div class="nav">
     <div class="container">
       <ul class="nav nav-tabs">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">Aboot</a></li>
+        <li class="pull-left"><a href="/">home</a></li>
+        <li class="pull-left"><a href="/about">about</a></li>
+        <li class="pull-right"><a href="/">github</a></li>
+        <li class="pull-right"><a href="/about">twitter</a></li>
       </ul>
     </div>
   </div>
 
-  {{ content }}
+  <div class="content">
+    <div class="container">
+<!-- content --------------------------------->
+{{ content }}
+<!-------------------------------------------->
+    </div>
+  </div>
 </body>
 
 </html>
